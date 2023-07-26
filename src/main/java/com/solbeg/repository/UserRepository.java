@@ -1,6 +1,7 @@
 package com.solbeg.repository;
 
 import com.solbeg.model.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
