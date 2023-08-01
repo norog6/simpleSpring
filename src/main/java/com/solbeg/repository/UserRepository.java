@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-@Component
+
 public class UserRepository {
     private final List<User> users = Arrays.asList(
             User.builder()
