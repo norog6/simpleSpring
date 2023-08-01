@@ -1,13 +1,13 @@
 package com.solbeg.repository;
 
 import com.solbeg.model.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+@Component
 public class UserRepository {
     private final List<User> users = Arrays.asList(
             User.builder()
